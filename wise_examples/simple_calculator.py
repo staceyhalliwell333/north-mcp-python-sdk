@@ -13,19 +13,19 @@ mcp = NorthMCPServer(
 )
 
 @mcp.tool()
-def firstname_lastname_add(a: int, b: int) -> int:
+def Stacey_Halliwell_add(a: int, b: int) -> int:
     """Add two numbers"""
     return a + b
 
 
 @mcp.tool()
-def firstname_lastname_subtract(a: int, b: int) -> int:
+def Stacey_Halliwell_subtract(a: int, b: int) -> int:
     """Subtract two numbers"""
     return a - b
 
 
 @mcp.tool()
-def firstname_lastname_multiply(a: int, b: int) -> int:
+def Stacey_Halliwell_multiply(a: int, b: int) -> int:
     """Multiply two numbers"""
     return a * b
 
@@ -35,13 +35,13 @@ def firstname_lastname_multiply(a: int, b: int) -> int:
 # but it allows the system to warn or double-check with the user before running potentially dangerous operations. 
 # In this case, it’s about safety and user awareness, not automatic error handling.
 @mcp.tool(annotations={"destructiveHint":  True})
-def firstname_lastname_divide(a: int, b: int) -> int:
+def Stacey_Halliwell_divide(a: int, b: int) -> int:
     """Divide two numbers"""
     return int(a / b)
 
 
 @mcp.tool()
-def firstname_lastname_exponent(a: int, b: int) -> int:
+def Stacey_Halliwell_exponent(a: int, b: int) -> int:
     """
     Raises the first number to the power of the second number.
     Exponent two numbers"""
@@ -49,7 +49,7 @@ def firstname_lastname_exponent(a: int, b: int) -> int:
 
 
 @mcp.tool()
-def firstname_lastname_modulo(a: int, b: int) -> int:
+def Stacey_Halliwell_modulo(a: int, b: int) -> int:
     """Modulo two numbers"""
     return a % b
 
